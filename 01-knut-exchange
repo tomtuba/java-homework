@@ -1,0 +1,22 @@
+In the wizarding world, currency is represented with three coins:
+- Galleons (gold) are worth 17 Sickles
+- Sickles (silver) are worth 29 Knuts
+- Knuts (bronze) are the lowest denomination
+
+Create a method called "exchangeKnuts" that takes a single int parameter, the number of knuts to convert.
+This method will return a String, representing the coins given in exchange, in Galleons, Sickles and Knuts, 
+revealing the smallest number of coins possible for the exchange.
+
+To protect against theft, this method will return "Alert the Goblins!" if a negative number is presented.
+
+Use the following to test your results:
+- exchangeKnuts(659) will return "1 Galleon, 5 Sickles and 21 Knuts"
+- exchangeKnuts(32) will return "1 Sickle and 3 Knuts"
+- exchangeKnuts(0) will return "Nothing"
+- exchangeKnuts(-4) will return "Alert the Goblins!"
+
+Hints:
+Remember the modulo operator (%) will return the remainder after integer division (e.g. 7 % 3 == 1)
+Dividing two integers will only return the whole number of a division (e.g. 7 / 3 == 2)
+Use if-statements to make sure you are returning the correct values for singular or plural units, 
+or if none of a certain denomination is needed.
