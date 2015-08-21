@@ -12,7 +12,7 @@ To protect against theft, this method will return "Alert the Goblins!" if a nega
 Use the following to test your results:
 - exchangeKnuts(659) will return "1 Galleon, 5 Sickles and 21 Knuts"
 - exchangeKnuts(32) will return "1 Sickle and 3 Knuts"
-- exchangeKnuts(0) will return "Nothing"
+- exchangeKnuts(0) will return "The bank is closing now"
 - exchangeKnuts(-4) will return "Alert the Goblins!"
 
 Hints:
